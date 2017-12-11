@@ -34,6 +34,8 @@ public class LivingThing {
         return name;
     }
 
+    public int getAttack() { return attack; }
+
     public void attack(LivingThing opponent){
         if(dead == true){
         }else{
